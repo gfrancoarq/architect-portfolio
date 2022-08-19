@@ -8,6 +8,17 @@
 
 - HTML and CSS
 
+## Getting Started
+
+**Instructions to set up this project locally and use as a template:**
+
+- Fork the repo.
+- Clone your fork.
+- Create a new branch.
+- Make your changes, commit what you have made, and make a pull request.
+- If you get things working, and it pass all the test, create a pull request.
+- Get merged!
+
 ## Authors
 
 👤 **Gustavo Franco**

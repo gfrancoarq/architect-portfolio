@@ -19,21 +19,24 @@ a {
   font-size: 20px;
 }
 
-h1 {
+h3 {
   text-decoration: none;
   font-weight: 600;
   font-size: 20px;
   color: #28352f;
 }
 
-h2 {
+h1 {
   font-weight: 700;
   font-size: 40px;
   margin: 1.6rem;
   color: #172b4d;
 }
 
-.green {
+h2 {
+  font-weight: 700;
+  font-size: 40px;
+  margin: 1.6rem;
   color: #36b37e;
 }
 
@@ -41,6 +44,10 @@ p {
   font-weight: 400;
   font-size: 20px;
   margin: 1.6rem;
+}
+
+li {
+  display: inline-block;
 }
 
 img {
@@ -54,10 +61,6 @@ img {
   width: 80%;
   align-items: center;
   margin: auto;
-}
-
-section {
-  padding: 100px 0;
 }
 
 /* Hero Section */
