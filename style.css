@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap");
+
 /* Base Styling */
 
 * {
@@ -60,6 +61,7 @@ section {
 }
 
 /* Hero Section */
+
 .headline-section {
   height: 100vh;
   background-image: url("images/mobile-header-illustration.png");
@@ -109,12 +111,8 @@ nav {
 }
 
 /* mobile version */
-nav {
-  flex-direction: column;
-  position: relative;
-}
 
-nav box-icon {
+#hamburger {
   display: block;
   position: absolute;
   top: 12px;
