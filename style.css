@@ -205,9 +205,12 @@ button {
 }
 
 .indicator {
-  width: 48px;
+  background-image: url("images/Indicator.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 4px;
   margin-top: 24px;
-  margin-bottom: 52px;
+  margin-bottom: 60px;
 }
 
 /* Container with CSS Grid */
