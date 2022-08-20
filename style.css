@@ -208,12 +208,18 @@ button {
 .indicator {
   width: 48px;
   margin-top: 24px;
-  margin-bottom: 62px;
+  margin-bottom: 52px;
 }
 
-/* Container with Flexbox */
+/* Container with CSS Grid */
 
-/*Card with CSS Grid */
+.container {
+  display: grid;
+  align-content: space-evenly;
+  justify-content: space-around;
+}
+
+/*Card with Flexbox */
 
 .card {
   display: flex;
@@ -258,4 +264,12 @@ button {
   width: 130px;
   height: 130px;
   margin-top: 40px;
+}
+
+.hoverme {
+  background-color: #36b37f;
+}
+
+.hoverme:hover {
+  background-color: #037546;
 }
