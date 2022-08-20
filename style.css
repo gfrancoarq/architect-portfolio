@@ -15,17 +15,12 @@ body {
 
 a {
   text-decoration: none;
-  font-weight: 600;
-  font-size: 20px;
+  font-weight: 400;
+  /* 1.6rem * 10 = 16px */
+  font-size: 1.6rem;
 }
 
-h3 {
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 20px;
-  color: #28352f;
-}
-
+/* h1 is for title */
 h1 {
   font-weight: 700;
   font-size: 40px;
@@ -33,19 +28,44 @@ h1 {
   color: #172b4d;
 }
 
+/* h2 is for grey big texts */
 h2 {
   font-weight: 700;
   font-size: 40px;
   margin: 1.6rem;
-  color: #36b37e;
+  color: #172b4d;
+}
+
+.green {
+  color: #36b37f;
+}
+
+/* h3 is for logo */
+h3 {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  color: #28352f;
+}
+
+/* h4 is for grey text inside cards */
+h4 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  color: #344563;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 p {
   font-weight: 400;
   font-size: 20px;
   margin: 1.6rem;
+  text-align: center;
 }
 
+/* li is for icons and tags */
 li {
   display: inline-block;
 }
@@ -55,18 +75,20 @@ img {
   height: auto;
 }
 
-.row {
-  display: flex;
-  justify-content: space-between;
-  width: 80%;
-  align-items: center;
-  margin: auto;
+.about-me {
+  background-image: url(../images/about-background.png);
+  height: 389px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 30px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 60px;
 }
 
-/* Hero Section */
-
 .headline-section {
-  height: 100vh;
+  height: 90vh;
   background-image: url("images/mobile-header-illustration.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -77,6 +99,7 @@ nav {
   padding: 2% 8%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .icons {
@@ -121,4 +144,118 @@ nav {
   top: 12px;
   right: 30px;
   color: #172b4d;
+}
+
+/* Works section */
+
+.tags {
+  margin-top: 8px;
+  margin-bottom: 29px;
+  display: flow-root;
+  text-align: center;
+}
+
+.project-tag {
+  display: inline-block;
+  margin: 4px;
+  color: #3a4a42;
+  background-color: #ebf0ee;
+  padding: 12px;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  border: 0px;
+  border-radius: 4px;
+}
+
+.skill-tag {
+  display: inline-block;
+  margin: 4px;
+  color: #36b37f;
+  background-color: white;
+  padding: 12px;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  border: 0px;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #36b37f;
+  color: white;
+  padding: 12px;
+  font-family: Inter, sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  border: 0px;
+  border-radius: 4px;
+  margin-bottom: 24px;
+}
+
+.resume-button {
+  margin-top: 24px;
+}
+
+.recent-works {
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.indicator {
+  width: 48px;
+  margin-top: 24px;
+  margin-bottom: 62px;
+}
+
+/* Container with Flexbox */
+
+/*Card with CSS Grid */
+
+.card {
+  display: flex;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+  background-color: #ebf0ee;
+  height: 474px;
+  width: 327px;
+  margin-top: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: flex-end;
+  padding-top: 25px;
+}
+
+.project {
+  height: 222px;
+  width: 327px;
+  background-color: #ffffff;
+  justify-self: stretch;
+  align-self: end;
+  border-radius: 8px;
+  display: inline-table;
+}
+
+.skillcard {
+  display: flex;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+  background-color: #ebf0ee;
+  height: 352px;
+  width: 327px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-bottom: 25px;
+}
+
+.skillcard-icon {
+  width: 130px;
+  height: 130px;
+  margin-top: 40px;
 }
