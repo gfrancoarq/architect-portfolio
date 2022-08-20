@@ -16,7 +16,6 @@ body {
 a {
   text-decoration: none;
   font-weight: 400;
-  /* 1.6rem * 10 = 16px */
   font-size: 1.6rem;
 }
 
@@ -165,7 +164,7 @@ nav {
   font-size: 12px;
   font-weight: 600;
   line-height: 16px;
-  border: 0px;
+  border: 0;
   border-radius: 4px;
 }
 
@@ -179,7 +178,7 @@ nav {
   font-size: 12px;
   font-weight: 600;
   line-height: 16px;
-  border: 0px;
+  border: 0;
   border-radius: 4px;
 }
 
@@ -190,7 +189,7 @@ button {
   font-family: Inter, sans-serif;
   font-size: 17px;
   font-weight: 500;
-  border: 0px;
+  border: 0;
   border-radius: 4px;
   margin-bottom: 24px;
 }
@@ -219,7 +218,7 @@ button {
   justify-content: space-around;
 }
 
-/*Card with Flexbox */
+/* Card with Flexbox */
 
 .card {
   display: flex;
@@ -238,7 +237,7 @@ button {
 .project {
   height: 222px;
   width: 327px;
-  background-color: #ffffff;
+  background-color: #fff;
   justify-self: stretch;
   align-self: end;
   border-radius: 8px;
