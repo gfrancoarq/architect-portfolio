@@ -8,10 +8,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- Project 1 Portfolio: setup and mobile first START -->
-
     <header>
-      <!-- NAVBAR START -->
       <nav>
         <div>
           <h3>Welcome</h3>
@@ -23,10 +20,8 @@
           size="lg"
         ></box-icon>
       </nav>
-      <!-- NAVBAR END -->
     </header>
     <section>
-      <!-- HEADLINE SECTION START -->
       <div class="headline-section">
         <div class="header-content">
           <h1>Hey there. I'm Franco</h1>
@@ -74,26 +69,15 @@
           </div>
         </div>
       </div>
-      <!-- HEADLINE SECTION END-->
     </section>
 
-    <!-- Project 1 Portfolio: setup and mobile first END -->
-
-    <!-- Project 2 Portfolio: finish mobile version START -->
-
-    <!-- WORKS SECTION START -->
     <section class="header-content">
-      <!-- SECTION TITLE START -->
       <div class="section-title">
         <h1 class="recent-works">My Recent Works</h1>
       </div>
       <div class="indicator"></div>
 
-      <!-- SECTION TITLE END -->
-
-      <!-- CONTAINER FOR CARDS START -->
       <div class="container">
-        <!-- PROJECT CARD START -->
         <div class="card">
           <div class="project">
             <h4>Multi-Post Stories Gain+Glory</h4>
@@ -116,8 +100,7 @@
             <button type="button" class="hoverme">See Project</button>
           </div>
         </div>
-        <!-- PROJECT CARD END -->
-        <!-- PROJECT CARD START -->
+
         <div class="card">
           <div class="project">
             <h4>Multi-Post Stories Gain+Glory</h4>
@@ -140,8 +123,7 @@
             <button type="button" class="hoverme">See Project</button>
           </div>
         </div>
-        <!-- PROJECT CARD END -->
-        <!-- PROJECT CARD START -->
+
         <div class="card">
           <div class="project">
             <h4>Multi-Post Stories Gain+Glory</h4>
@@ -164,8 +146,7 @@
             <button type="button" class="hoverme">See Project</button>
           </div>
         </div>
-        <!-- PROJECT CARD END -->
-        <!-- PROJECT CARD START -->
+
         <div class="card">
           <div class="project">
             <h4>Multi-Post Stories Gain+Glory</h4>
@@ -188,8 +169,7 @@
             <button type="button" class="hoverme">See Project</button>
           </div>
         </div>
-        <!-- PROJECT CARD END -->
-        <!-- PROJECT CARD START -->
+
         <div class="card">
           <div class="project">
             <h4>Multi-Post Stories Gain+Glory</h4>
@@ -212,8 +192,7 @@
             <button type="button" class="hoverme">See Project</button>
           </div>
         </div>
-        <!-- PROJECT CARD END -->
-        <!-- PROJECT CARD START -->
+
         <div class="card">
           <div class="project">
             <h4>Multi-Post Stories Gain+Glory</h4>
@@ -236,15 +215,10 @@
             <button type="button" class="hoverme">See Project</button>
           </div>
         </div>
-        <!-- PROJECT CARD END -->
       </div>
-      <!-- CONTAINER FOR CARDS END -->
     </section>
-    <!-- WORKS SECTION END -->
 
-    <!-- ABOUT SECTION START -->
     <section>
-      <!-- ABOUT ME START -->
       <div class="about-me">
         <h2 class="recent-works">About me</h2>
         <p class="description">
@@ -256,11 +230,8 @@
           Get My Resume
         </button>
       </div>
-      <!-- ABOUT ME END -->
 
-      <!-- SKILLCARD CONTAINER START -->
       <div class="skillcard-container">
-        <!-- SKILLCARD START -->
         <div class="skillcard">
           <img
             class="skillcard-icon"
@@ -284,8 +255,6 @@
             </li>
           </ul>
         </div>
-        <!-- SKILLCARD END -->
-        <!-- SKILLCARD START -->
         <div class="skillcard">
           <img
             class="skillcard-icon"
@@ -312,8 +281,6 @@
             </li>
           </ul>
         </div>
-        <!-- SKILLCARD END -->
-        <!-- SKILLCARD START -->
         <div class="skillcard">
           <img
             class="skillcard-icon"
@@ -340,13 +307,75 @@
             </li>
           </ul>
         </div>
-        <!-- SKILLCARD END -->
       </div>
-      <!-- SKILLCARD CONTAINER END -->
     </section>
-    <!-- ABOUT SECTION END -->
 
-    <!-- Project 2 Portfolio: finish mobile version END -->
+    <div class="form-container">
+      <h2 class="recent-works container-title">
+        I'm always interested in hearing about new projects, so if you'd like to
+        chat please get in touch.
+      </h2>
+
+      <form action="https://formspree.io/f/mnqrjapq" method="post">
+        <div id="input-container">
+          <input
+            class="form-text"
+            type="text"
+            name="full-name"
+            maxlength="30"
+            placeholder="Full name"
+            required
+          />
+
+          <input
+            class="form-text"
+            type="email"
+            name="email-addres"
+            placeholder="Email address"
+            required
+          />
+
+          <textarea
+            class="form-text"
+            name="message"
+            maxlength="500"
+            placeholder="Enter text here"
+            required
+          ></textarea>
+
+          <button type="button" class="resume-button hoverme">
+            Get in touch
+          </button>
+        </div>
+      </form>
+      <ul class="icons">
+        <li>
+          <img src="images/twitter.svg" alt="My twitter" class="grey-icon" />
+        </li>
+        <li>
+          <img
+            src="images/linkedin-icon.svg"
+            alt="My linkedin"
+            class="grey-icon"
+          />
+        </li>
+        <li>
+          <img src="images/medium.svg" alt="My medium" class="grey-icon" />
+        </li>
+        <li>
+          <img src="images/github.svg" alt="My github" class="grey-icon" />
+        </li>
+        <li>
+          <img
+            src="images/angellist.svg"
+            alt="My angellist"
+            class="grey-icon"
+          />
+        </li>
+      </ul>
+
+      <p class="email description">gfrancoarquitecto@gmail.com</p>
+    </div>
 
     <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
     <script src="app.js"></script>
