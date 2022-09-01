@@ -308,6 +308,10 @@ button {
   align-content: space-around;
   justify-content: space-around;
   align-items: center;
+  background-image: url(images/illustration-contact-form.svg);
+  background-position: right bottom;
+  background-position-y: 630px;
+  background-repeat: no-repeat;
 }
 
 #input-container {
@@ -316,6 +320,10 @@ button {
 }
 
 input::placeholder {
+  font-size: 15px;
+  padding: 15px;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
   color: #6b778c;
 }
 
@@ -323,7 +331,7 @@ textarea::placeholder {
   font-size: 15px;
   padding: 15px;
   font-family: Inter, sans-serif;
-  font-weight: 550;
+  font-weight: 400;
   color: #6b778c;
 }
 
