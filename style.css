@@ -6,7 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 62.5%;
+  font-size: 50%;
 }
 
 body {
@@ -15,8 +15,11 @@ body {
 
 a {
   text-decoration: none;
-  font-weight: 400;
-  font-size: 1.6rem;
+  font-weight: 600;
+  font-size: 1.8rem;
+  margin-left: 4px;
+  margin-right: 4px;
+  color: #344563;
 }
 
 /* h1 is for title */
@@ -98,7 +101,7 @@ nav {
   padding: 2% 8% 1% 8%;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
 }
 
 .icons {
@@ -145,6 +148,12 @@ nav {
   color: #172b4d;
 }
 
+@media only screen and (max-width: 768px) {
+  .nav-elements {
+    display: none;
+  }
+}
+
 /* desktop version - more than 768px */
 
 @media only screen and (min-width: 768px) {
@@ -153,9 +162,77 @@ nav {
   }
 
   .header-content {
-    width: 60%;
+    width: 80%;
     margin: 0 auto 0 auto;
-    padding-top: 30px;
+    padding-top: 45px;
+  }
+
+  .container {
+    width: 100%;
+    margin: 0 auto 0 auto;
+    flex-wrap: wrap;
+    display: flex;
+    align-content: space-evenly;
+    justify-content: space-around;
+  }
+
+  .description {
+    margin: 5% auto 6% auto;
+    width: 70%;
+  }
+
+  .skillcard-container {
+    width: 80%;
+    margin: 0 auto 0 auto;
+    flex-wrap: wrap;
+    display: flex;
+    align-content: space-evenly;
+    justify-content: space-around;
+  }
+
+  .bottom-line {
+    border-bottom: 1px solid #6b778c;
+    width: 80%;
+    margin: 0 auto 0 auto;
+    flex-wrap: wrap;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .email {
+    display: none;
+  }
+
+  .icons {
+    padding-top: 0;
+    padding-bottom: 20px;
+  }
+
+  .container-title {
+    width: 40%;
+    display: inline-flex;
+    margin-top: 45px;
+    margin-bottom: 55px;
+    text-align: right;
+  }
+
+  .contact-form {
+    padding-top: 45px;
+    padding-bottom: 30px;
+  }
+
+  #hamburger {
+    display: none;
+  }
+
+  h3 {
+    display: none;
+  }
+
+  nav {
+    justify-content: center;
   }
 }
 
@@ -232,7 +309,8 @@ button {
 /* Container with CSS Grid */
 
 .container {
-  display: grid;
+  flex-wrap: wrap;
+  display: flex;
   align-content: space-evenly;
   justify-content: space-around;
 }
@@ -325,6 +403,10 @@ input::placeholder {
   font-family: Inter, sans-serif;
   font-weight: 400;
   color: #6b778c;
+}
+
+textarea {
+  overflow: hidden;
 }
 
 textarea::placeholder {
