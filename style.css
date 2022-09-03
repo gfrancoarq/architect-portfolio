@@ -15,8 +15,11 @@ body {
 
 a {
   text-decoration: none;
-  font-weight: 400;
-  font-size: 1.6rem;
+  font-weight: 600;
+  font-size: 1.8rem;
+  margin-left: 4px;
+  margin-right: 4px;
+  color: #344563;
 }
 
 /* h1 is for title */
@@ -98,7 +101,7 @@ nav {
   padding: 2% 8% 1% 8%;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
 }
 
 .icons {
@@ -168,7 +171,7 @@ nav {
   }
 
   .description {
-    margin: 8% auto 2% auto;
+    margin: 5% auto 6% auto;
     width: 70%;
   }
 
@@ -212,6 +215,18 @@ nav {
   .contact-form {
     padding-top: 45px;
     padding-bottom: 30px;
+  }
+
+  #hamburger {
+    display: none;
+  }
+
+  h3 {
+    display: none;
+  }
+
+  nav {
+    justify-content: center;
   }
 }
 
