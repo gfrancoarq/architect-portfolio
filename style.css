@@ -399,6 +399,10 @@ input::placeholder {
   color: #6b778c;
 }
 
+textarea {
+  overflow: hidden;
+}
+
 textarea::placeholder {
   font-size: 15px;
   padding: 15px;
