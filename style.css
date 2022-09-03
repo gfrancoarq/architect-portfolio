@@ -6,7 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 62.5%;
+  font-size: 50%;
 }
 
 body {
@@ -153,9 +153,65 @@ nav {
   }
 
   .header-content {
-    width: 60%;
+    width: 80%;
     margin: 0 auto 0 auto;
-    padding-top: 30px;
+    padding-top: 45px;
+  }
+
+  .container {
+    width: 100%;
+    margin: 0 auto 0 auto;
+    flex-wrap: wrap;
+    display: flex;
+    align-content: space-evenly;
+    justify-content: space-around;
+  }
+
+  .description {
+    margin: 8% auto 2% auto;
+    width: 70%;
+  }
+
+  .skillcard-container {
+    width: 80%;
+    margin: 0 auto 0 auto;
+    flex-wrap: wrap;
+    display: flex;
+    align-content: space-evenly;
+    justify-content: space-around;
+  }
+
+  .bottom-line {
+    border-bottom: 1px solid #6b778c;
+    width: 80%;
+    margin: 0 auto 0 auto;
+    flex-wrap: wrap;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .email {
+    display: none;
+  }
+
+  .icons {
+    padding-top: 0;
+    padding-bottom: 20px;
+  }
+
+  .container-title {
+    width: 40%;
+    display: inline-flex;
+    margin-top: 45px;
+    margin-bottom: 55px;
+    text-align: right;
+  }
+
+  .contact-form {
+    padding-top: 45px;
+    padding-bottom: 30px;
   }
 }
 
@@ -232,7 +288,8 @@ button {
 /* Container with CSS Grid */
 
 .container {
-  display: grid;
+  flex-wrap: wrap;
+  display: flex;
   align-content: space-evenly;
   justify-content: space-around;
 }

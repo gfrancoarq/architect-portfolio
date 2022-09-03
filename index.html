@@ -311,43 +311,50 @@
     </section>
 
     <div class="form-container">
-      <h2 class="recent-works container-title">
-        I'm always interested in hearing about new projects, so if you'd like to
-        chat please get in touch.
-      </h2>
+      <div class="bottom-line">
+        <h2 class="recent-works container-title">
+          I'm always interested in hearing about new projects, so if you'd like
+          to chat please get in touch.
+        </h2>
 
-      <form action="https://formspree.io/f/mnqrjapq" method="post">
-        <div id="input-container">
-          <input
-            class="form-text"
-            type="text"
-            name="full-name"
-            maxlength="30"
-            placeholder="Full name"
-            required
-          />
+        <form
+          class="contact-form"
+          action="https://formspree.io/f/mnqrjapq"
+          method="POST"
+        >
+          <div id="input-container">
+            <input
+              class="form-text"
+              type="text"
+              name="full-name"
+              maxlength="30"
+              placeholder="Full name"
+              required
+            />
 
-          <input
-            class="form-text"
-            type="email"
-            name="email-addres"
-            placeholder="Email address"
-            required
-          />
+            <input
+              class="form-text"
+              type="email"
+              name="email-addres"
+              placeholder="Email address"
+              required
+            />
 
-          <textarea
-            class="form-text"
-            name="message"
-            maxlength="500"
-            placeholder="Enter text here"
-            required
-          ></textarea>
+            <textarea
+              class="form-text"
+              name="message"
+              maxlength="500"
+              placeholder="Enter text here"
+              required
+            ></textarea>
 
-          <button type="button" class="resume-button hoverme">
-            Get in touch
-          </button>
-        </div>
-      </form>
+            <button type="button" class="resume-button hoverme">
+              Get in touch
+            </button>
+          </div>
+        </form>
+      </div>
+
       <ul class="icons">
         <li>
           <img src="images/twitter.svg" alt="My twitter" class="grey-icon" />
