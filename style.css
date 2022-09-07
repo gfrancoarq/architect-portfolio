@@ -63,7 +63,7 @@ h4 {
 p {
   font-weight: 400;
   font-size: 20px;
-  margin: 1.6rem;
+  margin: 3.6rem;
   text-align: center;
 }
 
@@ -303,7 +303,7 @@ button {
   background-repeat: no-repeat;
   height: 4px;
   margin-top: 24px;
-  margin-bottom: 60px;
+  margin-bottom: 35px;
 }
 
 /* Container with CSS Grid */
@@ -424,5 +424,6 @@ textarea::placeholder {
 
 .email {
   margin-top: 20px;
-  margin-bottom: 265px;
+  margin-bottom: 190px;
+  color: #6b778c;
 }
