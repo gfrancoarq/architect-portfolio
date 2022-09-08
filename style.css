@@ -416,7 +416,6 @@ input::placeholder {
 
 textarea {
   overflow: hidden;
-
   max-width: 100%;
   min-height: 50px;
   height: 114px;
