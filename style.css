@@ -152,6 +152,10 @@ nav {
   .nav-elements {
     display: none;
   }
+
+  .resume-button {
+    margin: 24px auto 24px auto;
+  }
 }
 
 /* desktop version - more than 768px */
@@ -233,6 +237,10 @@ nav {
 
   nav {
     justify-content: center;
+  }
+
+  .resume-button {
+    margin-left: 0;
   }
 }
 
@@ -318,12 +326,13 @@ button {
 /* Card with Flexbox */
 
 .card {
+  box-sizing: border-box;
   display: flex;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
   background-color: #ebf0ee;
   height: 474px;
-  width: 327px;
+  width: 320px;
   margin-top: 24px;
   margin-left: auto;
   margin-right: auto;
@@ -407,6 +416,10 @@ input::placeholder {
 
 textarea {
   overflow: hidden;
+
+  max-width: 100%;
+  min-height: 50px;
+  height: 114px;
 }
 
 textarea::placeholder {
