@@ -20,6 +20,9 @@ a {
   margin-left: 4px;
   margin-right: 4px;
   color: #344563;
+  transition-property: color, font-size;
+  transition-duration: 0.2s;
+  transition-delay: 0.1s;
 }
 
 /* h1 is for title */
@@ -28,6 +31,9 @@ h1 {
   font-size: 40px;
   margin: 1.6rem;
   color: #172b4d;
+  transition-property: font-size;
+  transition-duration: 0.2s;
+  transition-delay: 0.1s;
 }
 
 /* h2 is for grey big texts */
@@ -36,6 +42,9 @@ h2 {
   font-size: 40px;
   margin: 1.6rem;
   color: #172b4d;
+  transition-property: font-size;
+  transition-duration: 0.2s;
+  transition-delay: 0.1s;
 }
 
 .green {
@@ -267,6 +276,13 @@ nav {
   border-radius: 4px;
 }
 
+.project-tag:hover {
+  background-color: #acefd4;
+  -webkit-transition: background-color 0.3s linear;
+  -ms-transition: background-color 0.3s linear;
+  transition: background-color 0.3s linear;
+}
+
 .skill-tag {
   display: inline-block;
   margin: 4px;
@@ -279,6 +295,13 @@ nav {
   line-height: 16px;
   border: 0;
   border-radius: 4px;
+}
+
+.skill-tag:hover {
+  background-color: #dfe4e3;
+  -webkit-transition: background-color 0.3s linear;
+  -ms-transition: background-color 0.3s linear;
+  transition: background-color 0.3s linear;
 }
 
 button {
@@ -338,6 +361,11 @@ button {
   margin-right: auto;
   align-items: flex-end;
   padding-top: 25px;
+  transition: all 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
 }
 
 .project {
@@ -363,6 +391,11 @@ button {
   flex-direction: column;
   justify-content: flex-start;
   margin-bottom: 25px;
+  transition: all 0.2s ease-in-out;
+}
+
+.skillcard:hover {
+  transform: scale(1.05);
 }
 
 .skillcard-icon {
@@ -377,6 +410,9 @@ button {
 
 .hoverme:hover {
   background-color: #037546;
+  -webkit-transition: background-color 0.3s linear;
+  -ms-transition: background-color 0.3s linear;
+  transition: background-color 0.3s linear;
 }
 
 .form-text {
@@ -438,4 +474,17 @@ textarea::placeholder {
   margin-top: 20px;
   margin-bottom: 190px;
   color: #6b778c;
+}
+
+h1:hover {
+  font-size: 43px;
+}
+
+h2:hover {
+  font-size: 43px;
+}
+
+a:hover {
+  color: rgb(38, 120, 1);
+  font-size: 2rem;
 }
