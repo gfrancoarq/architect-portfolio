@@ -8,6 +8,10 @@
 
 - HTML and CSS
 
+## Live Demo
+
+https://gfrancoarq.github.io/personal-portfolio/
+
 ## Getting Started
 
 **Instructions to set up this project locally and use as a template:**
