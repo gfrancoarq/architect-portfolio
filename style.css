@@ -51,8 +51,8 @@ h2 {
   color: #36b37f;
 }
 
-/* h3 is for logo */
-h3 {
+/* h5 is for logo */
+h5 {
   text-decoration: none;
   font-weight: 600;
   font-size: 20px;
@@ -240,7 +240,7 @@ nav {
     display: none;
   }
 
-  h3 {
+  h5 {
     display: none;
   }
 
@@ -305,7 +305,7 @@ nav {
 }
 
 button {
-  background-color: #36b37f;
+  background-color: #237b56;
   color: white;
   padding: 13px;
   margin: auto;
@@ -405,7 +405,7 @@ button {
 }
 
 .hoverme {
-  background-color: #36b37f;
+  background-color: #237b56;
 }
 
 .hoverme:hover {
@@ -480,11 +480,11 @@ h1:hover {
   font-size: 43px;
 }
 
-h2:hover {
-  font-size: 43px;
-}
-
 a:hover {
   color: rgb(38, 120, 1);
   font-size: 2rem;
+}
+
+.invisible-label {
+  display: none;
 }

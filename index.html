@@ -11,7 +11,7 @@
     <header>
       <nav>
         <div>
-          <h3>Welcome</h3>
+          <h5>Welcome</h5>
         </div>
         <div class="nav-elements">
           <a href="#">Portfolio</a>
@@ -328,6 +328,7 @@
           method="POST"
         >
           <div id="input-container">
+            <label for="full-name" class="invisible-label">Full name</label>
             <input
               class="form-text"
               type="text"
@@ -337,14 +338,18 @@
               required
             />
 
+            <label for="email.address" class="invisible-label"
+              >Email Address</label
+            >
             <input
               class="form-text"
               type="email"
-              name="email-addres"
+              name="email-address"
               placeholder="Email address"
               required
             />
 
+            <label for="message" class="invisible-label">Message</label>
             <textarea
               class="form-text"
               name="message"
