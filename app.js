@@ -14,5 +14,6 @@ links.forEach((link) => {
         nav.classList.remove('slide');
         hamburger.classList.remove('slide');
         body.classList.toggle('overflow');
+        
     });
 });
