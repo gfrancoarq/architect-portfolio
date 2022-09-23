@@ -8,75 +8,86 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <div>
-          <h5>Welcome</h5>
-        </div>
-        <div class="nav-elements">
-          <a href="#">Portfolio</a>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
-        </div>
-        <box-icon
-          id="hamburger"
-          name="menu"
-          color="28352f"
-          size="lg"
-        ></box-icon>
-      </nav>
-    </header>
-    <section>
-      <div class="headline-section">
-        <div class="header-content">
-          <h1>Hey there. I'm Franco</h1>
-          <h2 class="green">I'm a software developer</h2>
-          <p class="description">
-            I can help you build a product, feature or website Look through some
-            of my work and experience! If you like what you see and have a
-            project you need coded, don't hestiate to contact me.
-          </p>
-          <ul class="icons">
-            <li>
-              <img
-                src="images/twitter.svg"
-                alt="My twitter"
-                class="grey-icon"
-              />
-            </li>
-            <li>
-              <img
-                src="images/linkedin-icon.svg"
-                alt="My linkedin"
-                class="grey-icon"
-              />
-            </li>
-            <li>
-              <img src="images/medium.svg" alt="My medium" class="grey-icon" />
-            </li>
-            <li>
-              <img src="images/github.svg" alt="My github" class="grey-icon" />
-            </li>
-            <li>
-              <img
-                src="images/angellist.svg"
-                alt="My angellist"
-                class="grey-icon"
-              />
-            </li>
-          </ul>
-          <div class="scroller-icon">
-            <img
-              src="images/btn-down.svg"
-              alt="down button"
-              class="down-button"
-            />
+    <section class="header-headline" id="home">
+      <header>
+        <nav>
+          <div>
+            <h5 class="logo" href="#home">Welcome</h5>
+          </div>
+          <button id="hamburger" name="menu" type="submit">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </button>
+          <div class="nav-elements">
+            <a class="nav-link" href="#work">Portfolio</a>
+            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#contact">Contact</a>
+          </div>
+        </nav>
+      </header>
+      <section>
+        <div class="headline-section">
+          <div class="header-content">
+            <h1>Hey there. I'm Franco</h1>
+            <h2 class="green">I'm a software developer</h2>
+            <p class="description">
+              I can help you build a product, feature or website Look through
+              some of my work and experience! If you like what you see and have
+              a project you need coded, don't hestiate to contact me.
+            </p>
+            <ul class="icons">
+              <li>
+                <img
+                  src="images/twitter.svg"
+                  alt="My twitter"
+                  class="grey-icon"
+                />
+              </li>
+              <li>
+                <img
+                  src="images/linkedin-icon.svg"
+                  alt="My linkedin"
+                  class="grey-icon"
+                />
+              </li>
+              <li>
+                <img
+                  src="images/medium.svg"
+                  alt="My medium"
+                  class="grey-icon"
+                />
+              </li>
+              <li>
+                <img
+                  src="images/github.svg"
+                  alt="My github"
+                  class="grey-icon"
+                />
+              </li>
+              <li>
+                <img
+                  src="images/angellist.svg"
+                  alt="My angellist"
+                  class="grey-icon"
+                />
+              </li>
+            </ul>
+            <div class="scroller-icon">
+              <a href="#work">
+                <img
+                  src="images/btn-down.svg"
+                  alt="down button"
+                  class="down-button"
+                />
+              </a>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
     </section>
 
-    <section class="header-content">
+    <section id="work" class="header-content">
       <div class="section-title">
         <h1 class="recent-works">My Recent Works</h1>
       </div>
@@ -223,13 +234,13 @@
       </div>
     </section>
 
-    <section>
+    <section id="about">
       <div class="about-me">
         <h2 class="recent-works">About me</h2>
         <p class="description">
           I can help you build a product , feature or website Look through some
           of my work and experience! If you like what you see and have a project
-          you need coded, don’t hestiate to contact me.
+          you need coded, don't hestiate to contact me.
         </p>
         <button type="button" class="resume-button hoverme">
           Get My Resume
@@ -315,7 +326,7 @@
       </div>
     </section>
 
-    <div class="form-container">
+    <div id="contact" class="form-container">
       <div class="bottom-line">
         <h2 class="recent-works container-title">
           I'm always interested in hearing about new projects, so if you'd like
