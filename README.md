@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Franco's Portfolio
+# Franco's Architect Portfolio
 
-> This is my portfolio project, created from a UI designed in Figma, and built with the Mobile First development philosophy.
+> This is my portfolio project as an Architect, created from a UI designed in Figma, and built with the Mobile First development philosophy.
 
 ## Built With
 
